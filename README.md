@@ -29,6 +29,8 @@ Configure o arquivo .env com as credenciais do seu banco
 
 Com as credenciais do banco devidamente configuradas, execute os seguintes comandos:
 
+$ composer update -vvv # Atualiza todas as dependencias para rodar a aplicação
+
 $ php artisan migrate # As tabelas da aplicação serão criadas no banco de dados
  
 $ php artisan db:seed # As tabelas da aplicação serão devidamente alimentadas

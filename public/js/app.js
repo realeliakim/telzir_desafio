@@ -35,7 +35,7 @@ $(function(){
               '<td>'+data.data.to+'</td>'+
               '<td>'+data.data.time+'</td>'+
               '<td>FaleMais '+data.data.care+'</td>'+
-              '<td>'+with_plan+'</td>'+
+              '<td><span class="badge badge-success">'+with_plan+'</span></td>'+
               '<td>'+no_plan+'</td>'+
             '</tr>'
           );
